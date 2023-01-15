@@ -1,0 +1,376 @@
+h1{
+    color: blue;
+}
+p{
+    font-size: 70px;
+    color: black;
+}
+#css1{
+    font-size: 100px;
+    color:hsl(298, 100%, 50%);
+
+}
+.css2{
+    font-size: 50px;
+    color: green;
+}
+.a{
+    color: yellow;
+}
+.a{
+    color: rgb(255, 0, 238, 0.9);
+}
+.para{
+    font-size: 30px;
+    /* background-color: yellow;  */
+    background-image: url(kalia.jpg);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    background-attachment: scroll;
+    
+    /* background-position: 20px 40px; */
+}
+.border1{
+    border-style: dashed;
+    border-width: 5px 2px 5px 2px;
+    border-color: blue;
+    padding: 10px;
+    text-align: center;
+    text-decoration: overline;
+    font-size: 50px;
+    /* text-transform: inherit; */
+    /* line-height: 20px; */
+    /* text-indent: 50px; */
+    /* word-spacing: 50px; */
+    /* letter-spacing: 50px; */
+    /* white-space: wrap; //all sentens write in one line */
+  
+}
+.border2{
+    border-style: dotted;
+    border: 1px solid rgb(255, 0, 0);
+}
+.border3{
+    border-style: double;
+}
+.border4{
+    border-style: groove;
+}
+.border5{
+    border-style: inherit;
+}
+.border6{
+    border-style: inset;
+}
+.border7{
+    border-style: none;
+}
+.border8{
+    border-style: ridge;
+}
+.border9{
+    border-style: outset;
+}
+.border10{
+    border-style: solid;
+}
+.border11{
+    border-style: unset;
+}
+/* 
+a{
+    text-decoration: none;
+}
+a:link{
+    color: rgb(255, 0, 0);
+}
+a:visited{
+    color: rgb(255, 0, 212);
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: coral;
+} */
+.font{
+    font-size: 20px;
+    /* font-weight: bold; */
+    /* font-size: initial; */
+    text-align: justify;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-variant: small-caps;
+}
+.cursor{
+    text-align: center;
+    border: 1px solid;
+    padding: 5px;
+    /* cursor: all-scroll; */
+    /* cursor: help; */
+    /* cursor: grab; */
+    cursor: not-allowed;
+    border-radius: 10px;
+    background-color: rgb(255, 40, 233) !important;
+}
+.cursor:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.boxshadow{
+    text-align: center;
+    border: 2px solid;
+    padding: 5px;
+            /* Y-axis X-axis Opasity aria */
+   box-shadow:   10px   5px   20px    2px rgb(54, 51, 211) inset ;
+    border-radius: 10px;
+    background-color: rgb(40, 255, 248) !important;
+
+}
+.boxshadow:hover{
+    background-color: rgb(101, 226, 43);
+    color: white;
+}
+.boxshadow1{
+    text-align: center;
+    border: 2px solid;
+    padding: 5px;
+            /* Y-axis X-axis Opacity aria */
+   box-shadow:   5px   5px   20px    1px rgb(54, 51, 211) inset,  5px   5px   25px    5px rgb(54, 51, 211);
+    border-radius: 10px;
+    background-color: rgb(40, 255, 248) !important;
+
+}
+.boxshadow1:hover{
+    background-color: rgb(101, 226, 43);
+    color: white;
+}
+
+.opacity{
+    text-align: center;
+    border: 1px solid;
+    padding: 5px;
+    
+    cursor: not-allowed;
+    border-radius: 10px;
+    background-color: rgb(255, 40, 233) !important;
+}
+.opacity:hover{
+    opacity: 0.5;
+}
+.filter_image
+{
+    height: 180px;
+    width: 190px;
+    filter:blur(1px);
+    filter:brightness(98%);
+    filter:drop-shadow(1px 5px 5px green);
+    filter: grayscale(10%);
+    filter: hue-rotate(10deg);
+    filter:contrast(70%);
+    filter:invert(100%);
+    filter:opacity(90%);
+}
+.gradient{
+    border: 2px solid;
+    border-radius: 70px;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    /* background-image: linear-gradient(blue ,green,yellow,red); */
+    background-image: linear-gradient(to top right,yellow,red);
+    background-image: linear-gradient(40deg,yellow,red);
+    background-image: radial-gradient(yellow ,red);
+}
+.overflow{
+    border: 1px solid;
+    height: 100px;
+    overflow: auto;
+
+}
+/* list */
+ul{
+    list-style-type: circle;
+}
+ol{
+    list-style: lower-greek;
+}
+.tab{
+    margin-left: 10px;
+}
+caption{
+    border: 1px solid;
+    
+
+}
+table{
+    
+    border: 1px solid;
+    /* border-collapse: collapse; */
+    height: 100px;
+    width: 400px;
+    border-spacing: 5px;
+    empty-cells: hide;
+    
+}
+tr{
+    border: 1px solid;
+}
+th{
+    border: 1px solid red;
+    color: red;
+}
+td{
+    border: 1px solid green;
+    color: green;
+    text-align: center;
+}
+#one{
+    background-color: blue;
+    height: 200px;
+    color: wheat;
+    width: 300px;
+    /* border: 5px solid rgb(255, 0, 0); */
+}
+#two{
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+    width: 300px;
+    color: wheat;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 5px solid yellow;
+}
+.objectfit{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    object-fit: contain;
+    /* object-position: top; */
+
+}
+.pseudo{
+    font-size: 20px;
+}
+/* .pseudo::before{
+    content: url("kalia.jpg");
+   
+
+} */
+/* .pseudo::first-line
+{
+    font-size: 40px;
+    color: blue;
+} */
+.pseudo::first-letter
+{
+    font-size: 40px;
+    color: blue;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
+#div{
+    border: 1px solid;
+    height: 200px;
+    width: 450px;
+    /* margin: 100px; */
+    /* position: relative; */
+}
+#one1{
+    border: 1px solid;
+    height: 150px;
+    margin: 20px;
+    width: 100px;
+    display: inline-block;
+    background-color: blue;
+
+}
+#two2{
+    border: 1px solid;
+    height: 150px;
+    margin: 20px;
+    width: 100px;
+    display: inline-block;
+    background-color: greenyellow;
+    /* position: relative;
+    top: 50px; */
+    /* left: 50px;
+    right: 50px; */
+
+    /* position: absolute; */
+    /* top:0.2px; */
+    /* left: 70px; */
+    /* position: fixed; */
+
+
+
+}
+#three3{
+    border: 1px solid;
+    height: 150px;
+    margin: 20px;
+    width: 100px;
+    display: inline-block;
+    background-color: brown;
+    /* top: 20px;
+    position: relative; */
+    
+}
+/* z-index: 1;< z-index: 2;<z-index: 3;  in the div overlap*/
+.float{
+    border: 1px solid;
+    float: right;
+    /* margin-right: 10px; */
+    font-size: 20px;
+}
+.d2{
+    background-color: yellow;
+    display: inline;
+    height: 30px;
+    border: 1px solid;
+    padding: 20px;
+}
+.tf{
+    margin-top: 5px;
+    font-size: 20px;
+    display: inline;
+
+}
+.d2:hover{
+    transform: skewX(55deg);
+}
+.trans{
+    background-color: yellow;
+    border: 1px solid;
+    height: 200px;
+    width: 150px;
+    /* transition-property: background-color, width;
+    transition-duration: 1s;
+    transition-delay: 1s; */
+    transition: 1s;
+}
+.trans:hover{
+    background-color: rgb(255, 128, 0);
+    width: 300px;
+}
+.flex{
+    height: 120px;
+    width: 120px;
+    background-color: tomato;
+    margin: 5px;
+    border: 3px solid;
+}
+main{
+    border: 3px solid;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column;
+    flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
+}

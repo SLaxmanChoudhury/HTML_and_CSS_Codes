@@ -1,0 +1,248 @@
+
+        html {
+            scroll-behavior: smooth;
+
+        }
+
+        .navbar-collapse {
+            flex-grow: 0;
+
+        }
+
+        .overflow-scroll {
+            overflow: scroll;
+        }
+
+        .overflow-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        #imga:hover img {
+            transform: scale(1.15);
+
+        }
+
+        .po {
+            color: #ffffff;
+        }
+
+        .po::after {
+            content: "";
+            background-color: #2e00f9;
+            height: 3px;
+            width: 0%;
+            color: #000000;
+            display: block;
+            transition: 0.3s ease-in-out;
+        }
+
+        .po:hover::after {
+            content: "";
+            background-color: #00b2f9;
+            ;
+            height: 2px;
+            width: 100%;
+
+            display: block;
+        }
+
+        .po:hover {
+            color: #00b2f9;
+
+        }
+
+        .an {
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .an::after {
+            content: "";
+            background-color: rgb(34, 0, 255);
+            height: 3px;
+            width: 0%;
+
+            display: block;
+            transition: 0.3s ease-in-out;
+        }
+
+        .an:hover::after {
+            content: "";
+            background-color: rgb(34, 0, 255);
+            height: 2px;
+            width: 100%;
+
+            display: block;
+        }
+
+        .card {
+            border: 2px solid #00b2f9;
+        }
+
+
+
+        .card:hover {
+            color: #2e00f9;
+            background-color: transparent;
+            border: 2px solid #2e00f9;
+
+            box-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 15px #2e00f9;
+
+            cursor: pointer;
+        }
+
+        .p {
+            color: #00b2f9;
+            font-family: 'Bree Serif', serif;
+
+        }
+
+        .co {
+            color: #000000;
+            font-weight: bold;
+          
+           
+            font-family: 'Bree Serif', serif;
+
+        }
+
+        .p:hover {
+            color: #2e00f9;
+        }
+
+        .c {
+            background-image: radial-gradient(yellow,red);
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid transparent;
+            border-radius: 30px;
+            font-family: 'Baloo Bhai 2', cursive;
+            transition: .4s;
+        }
+
+        .c:hover {
+            color: #ffffff;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            ;
+            box-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 15px #2e00f9;
+            ;
+            cursor: pointer;
+        }
+
+        .l {
+            background-color: #00b2f9;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bolder;
+            text-decoration: none;
+            border: 2px solid transparent;
+            border-radius: 30px;
+
+            transition: .4s;
+        }
+
+        .l:hover {
+            color: #ffffff;
+            background-color: transparent;
+            border: 2px solid #2e00f9;
+            ;
+            box-shadow: 0px 0px 5px rgb(47, 0, 255), 0px 0px 15px #ffffff;
+            ;
+            cursor: pointer;
+        }
+
+        .ms {
+            color: #00b2f9;
+        }
+
+        .ms:hover {
+            color: #ffffff;
+        }
+
+        .port {
+
+
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-size: 40px;
+            letter-spacing: 2px;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: 'cursive';
+
+        }
+
+        #hi {
+            position: relative;
+
+
+        }
+
+        #hi::before {
+            content: "";
+            position: absolute;
+            background: url(Image/book.webp) no-repeat center center/cover;
+            align-items: center;
+            justify-content: center;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.09;
+        }
+
+        .ham {
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+            text-align: center;
+            padding: 4px;
+            font-size: 20px;
+            font-weight: bolder;
+            text-decoration: none;
+            border: 2px solid transparent;
+            border-radius: 30px;
+            font-family: 'Baloo Bhai 2', cursive;
+            transition: .4s;
+
+
+        }
+
+        .ham:hover {
+            color: #ffffff;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 30px;
+            ;
+            box-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 15px #2e00f9;
+            ;
+            cursor: pointer;
+
+        }
+
+        #tech {
+            position: relative;
+
+
+        }
+
+        #tech::before {
+            content: "";
+            position: absolute;
+            background: url(Image/bk.jpg.webp) no-repeat center center/cover;
+            align-items: center;
+            justify-content: center;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.3;
+        }
+
+
+       
