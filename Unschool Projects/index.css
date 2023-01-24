@@ -178,6 +178,15 @@
 
         #hi {
             position: relative;
+            background-position: center;
+            justify-content: center;
+            background-size: cover;
+         
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+           
 
 
         }
@@ -187,7 +196,9 @@
             position: absolute;
             background: url(Image/book.webp) no-repeat center center/cover;
             align-items: center;
+            background-position: center;
             justify-content: center;
+            background-size: cover;
             z-index: -1;
             height: 100%;
             width: 100%;

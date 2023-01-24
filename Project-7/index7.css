@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+.text-box{
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(red,yellow);
+    padding: 10px;
+    
+}
+.text-box h1{
+    text-align: center;
+    font-size: 190px;
+    /* line-height: 160px; */
+    /* margin-left: -10px; */
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: name 20s linear infinite;
+}
+@keyframes name{
+    100%{
+        background-position: 2000px 0;
+    }
+}
