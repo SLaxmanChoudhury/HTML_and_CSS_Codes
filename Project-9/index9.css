@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+
+}
+.netflix{
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: #fff; */
+}
+.netflix span{
+    width: 50px;
+    height: 0;
+    background: #db0001;
+    position: absolute;
+    /* animation: anim; */
+    /* animation-iteration-count: infinite; */
+}
+.left{
+    left: 0;
+    bottom: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 1s;
+
+}
+.center{
+    top: 0;
+    left: 0;
+    transform: skewX(22deg);
+    transform-origin: top left;
+    box-shadow: 0 0 50px black;
+    z-index: 2;
+    animation: anim 1s linear forwards;
+    animation-delay: 2s;
+
+}
+
+.right{
+    right: 0;
+    bottom: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 3s;
+
+}
+
+.netflix::after{
+    content: '';
+    width: 120%;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    left: -10%;
+    bottom: -6%;
+    z-index: 5;
+}
+h3{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    top: 70%;
+    left: 42%;
+    animation: textl 1s linear forwards ;
+    animation-delay: 4s;
+    opacity: 0;
+}
+@keyframes anim{
+    100%{
+        height: 100%;
+        
+    }
+}
+@keyframes textl{
+    100%{
+        opacity: 100%;
+
+    }
+}
