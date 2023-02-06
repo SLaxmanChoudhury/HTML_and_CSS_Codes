@@ -33,7 +33,21 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 52% 48% 33% 67% / 38% 45% 55% 62%;
+    animation: kc 7s linear infinite;
     
+}
+@keyframes kc{
+    33%{
+    
+        border-radius: 56% 44% 30% 70% / 61% 80% 20% 39% ;
+    }
+    66%{
+        border-radius: 72% 28% 22% 78% / 73% 64% 36% 27% ;
+    }
+    100%{
+        border-radius: 52% 48% 33% 67% / 38% 45% 55% 62%;
+    }
+
 }
 .container .drop:hover{
     border-radius: 50%;
@@ -146,7 +160,7 @@ body{
 
 
 
-.container1{
+/* .container1{
     position: relative;
     display: flex;
     justify-content: center;
@@ -179,4 +193,4 @@ body{
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1em;
-}
+} */
