@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* height: 50px;
+    width: 130px; */
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: flexbox;
+    justify-content: center;
+    
+    
+   
+
+}
+.box p{
+    /* position: relative;
+    top: auto;
+    left: 50%; */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+
+    
+}
