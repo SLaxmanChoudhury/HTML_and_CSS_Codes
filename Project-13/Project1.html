@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Project</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/c4ae5db1d0.js" crossorigin="anonymous"></script>
+    <style>
+        .po {
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Bree Serif', serif;
+        }
+
+        .po::after {
+            content: "";
+            background-color: #2e00f9;
+            height: 3px;
+            width: 0%;
+            color: #000000;
+            display: block;
+            transition: 0.3s ease-in-out;
+        }
+
+        .po:hover::after {
+            content: "";
+            background-color: #00b2f9;
+
+            height: 2px;
+            width: 100%;
+
+            display: block;
+        }
+
+        .po:hover {
+            color: #00b2f9;
+
+        }
+
+        .port {
+
+
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-size: 40px;
+            letter-spacing: 2px;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: 'cursive';
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm fixed-top" id="nbar" style="background-color: rgba(0, 0, 0, 0.597);">
+        <div class="container my-2">
+            <a href="#" class="navbar-brand po">
+                <h2 class="port"> Portfolio</h2>
+            </a>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row text-center align-items-center mt-5 py-5 ">
+            <div class="col-12 col-md-7">
+                <div class="font-weight-light" style="font-size: 70px;  font-family: 'Bree Serif', serif;">
+                    <p>GIET College Service App </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 ">
+                <div class="cont">
+                    <div class="drop">
+                        <img class="img-fluid  w-130" src="android.jpg" alt="Laxman" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <h1 style="text-align: center; font-family: 'Bree Serif', serif; color: #00b2f9; font-weight: bold;">About
+            Project</h1>
+
+        <p style=" font-size: 25px; font-weight: bold;">To create a college service Android
+            application using Java, you
+            will need to follow these general steps:</p>
+        <ol style="font-size: 20px; font-family: 'Bree Serif', serif; margin-top: 5px;">
+            <li>Define the Requirements: First, you need to identify the requirements for your application. This
+                includes understanding the needs of your users, the features they require, and the purpose of your
+                application.</li>
+            <li>Choose the Development Environment: Next, you need to choose the development environment for your
+                application. You can use Android Studio, which is the official Integrated Development Environment (IDE)
+                for Android app development.</li>
+            <li>Design the User Interface: Once you have identified the requirements and the development environment,
+                you need to design the user interface for your application. You can use tools like Sketch or Adobe XD to
+                create the user interface.</li>
+            <li>Implement the Functionality: After designing the user interface, you need to implement the functionality
+                of your application. This includes writing the code for features such as user authentication, search
+                functionality, push notifications, and more.</li>
+            <li>Test Your Application: Once you have implemented the functionality of your application, you need to test
+                it thoroughly to ensure that it is working as expected. You can use tools like JUnit, Espresso, or
+                Robolectric to test your application</li>
+            <li>Publish Your Application: Finally, you need to publish your application on the Google Play Store or any
+                other app store to make it available to your users.</li>
+        </ol>
+
+        <p style=" font-size: 25px; font-weight: bold; margin-top: 20px;">Here are some specific steps that you can
+            follow to create a college service Android application using Java:
+
+        </p>
+
+        <ol style="font-size: 20px; font-family: 'Bree Serif', serif; margin-top: 5px;">
+            <li>Define the Requirements: Identify the needs of college students and the services that they require. This
+                could include services such as event information, class schedules, campus maps, student directory, and
+                more.</li>
+            <li>Choose the Development Environment: Install Android Studio and set up your development environment.
+                Create a new project in Android Studio and set up your development environment</li>
+            <li>Design the User Interface: Create a layout for your application using XML. You can use Android Studio's
+                layout editor to create a user interface for your application.</li>
+            <li>Implement the Functionality: Write the code for the functionality of your application using Java. This
+                includes features such as user authentication, push notifications, and more. You can use libraries such
+                as Firebase for backend functionality.Coffee</li>
+            <li>Test Your Application: Test your application thoroughly using tools like JUnit, Espresso, or
+                Robolectric. Ensure that your application is working as expected.</li>
+            <li>Publish Your Application: Finally, publish your application on the Google Play Store or any other app
+                store to make it available to your users.</li>
+        </ol>
+    </div>
+
+
+
+</body>
+
+</html>
